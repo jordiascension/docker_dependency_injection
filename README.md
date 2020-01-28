@@ -1,5 +1,5 @@
 ﻿1.Build the image with sdk 2.1  
-docker build --tag jordiascension/dependency_injection .
+docker build --tag jordiascension/dependency_injection:1.0 .
 
 2.Create the image  
 docker run --rm --name dependency jordiascension/dependency_injection:1.0
