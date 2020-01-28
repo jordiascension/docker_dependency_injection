@@ -1,19 +1,19 @@
-﻿1.Build the image with sdk 2.1
+﻿1.Build the image with sdk 2.1  
 docker build --tag jordiascension/dependency_injection .
 
-2.Create the image
+2.Create the image  
 docker run --rm --name dependency jordiascension/dependency_injection:1.0
 
-3.Push the image
+3.Push the image  
 docker push jordiascension/dependency_injection:1.0
 
-4.Pull the image
+4.Pull the image  
 docker pull jordiascension/dependency_injection:1.0
 
-5.Docker Hub Image
+5.Docker Hub Image  
 https://hub.docker.com/repository/docker/jordiascension/dependency_injection
 
-6.Github Source Code Repository
+6.Github Source Code Repository  
 https://github.com/jordiascension/docker_dependency_injection
 
 ---
